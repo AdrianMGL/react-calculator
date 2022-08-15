@@ -1,13 +1,13 @@
 /**  */
 
 .boton-contenedor {
-  height: 83px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1 1;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 35px;
   background-color: #1b1b329f;
   color: white;
   border-radius: 25px;

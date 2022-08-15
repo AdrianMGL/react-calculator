@@ -1,6 +1,5 @@
 /** */
 import "./App.css";
-import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png";
 import Boton from "./componentes/Boton";
 import Pantalla from "./componentes/Pantalla";
 import BotonClear from "./componentes/BotonClear";
@@ -21,19 +20,12 @@ function App() {
     if (input) {
       setInput(evaluate(input));
     } else {
-      alert("Por favor ingrese valores para realizar los cálculos.");
+      alert("Please enter values ​​to perform calculations");
     }
   };
 
   return (
     <div className="App">
-      <div className="freecodecamp-logo-contenedor">
-        <img
-          src={freeCodeCampLogo}
-          className="freecodecamp-logo"
-          alt="logo de freecodecamp"
-        />
-      </div>
       <div className="contenedor-calculadora">
         <Pantalla input={input} />
         <div className="fila">
